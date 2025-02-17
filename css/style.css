@@ -1,4 +1,46 @@
+.common-button a{
+    
+    background: #FCD980;
+    padding: 16px 54px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", serif;
+    border-radius: 41px;
+    border: 1px solid transparent;
+    transition: .4s;
+    display: inline-block;
+    
 
+}
+.common-button-two{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.common-button-two a{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+
+}
+.common-button-two i{
+    color: white;
+}
+
+.common-button a:hover{
+    background: transparent;
+    border-color: rgba(244, 246, 252,0.20);
+    color: white;
+
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
 /* ===================
 Navber part start
 ==================== */
@@ -44,4 +86,39 @@ nav{
 }
 /* ===================
 Navber part End
+==================== */
+/* ===================
+Banner part start
+==================== */
+.banner{
+    background: #1C1E53;
+    padding: 126px 0px;
+}
+
+.banner h1{
+font-size: 54px;
+font-weight: 600;
+color: white;
+font-family: "Poppins", serif;
+line-height: 74px;
+
+}
+.banner p{
+font-size: 16px;
+font-weight: 500;
+color: rgba(255, 255, 255,0.70);
+font-family: "Poppins", serif;
+line-height: 28px;
+width: 568px;
+padding-top: 24px;
+padding-bottom: 48px;
+
+}
+.banner-button-box{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+/* ===================
+Banner part End
 ==================== */

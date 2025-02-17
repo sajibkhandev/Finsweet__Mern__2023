@@ -1,2 +1,3 @@
 
  font-family: "Poppins", serif;
+  font-family: "Manrope", serif;
