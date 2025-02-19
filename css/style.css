@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     column-gap: 16px;
+    position: relative;
 }
 .common-button-two a{
     color: white;
@@ -27,6 +28,17 @@
 }
 .common-button-two i{
     color: white;
+    position: absolute;
+    top: 6px;
+    right: -15px;
+    opacity: 0;
+    transition: .4s;
+}
+.common-button-two:hover i{
+    top: 6px;
+    right: -25px;
+    opacity: 1;
+
 }
 
 .common-button a:hover{
@@ -40,6 +52,23 @@ a{
 }
 ul,ol{
     list-style: none;
+}
+
+.title h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #282938;
+
+}
+.title p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #282938;
+    width: 405px;
+    padding: 16px 0px;
+
 }
 /* ===================
 Navber part start
@@ -122,3 +151,60 @@ padding-bottom: 48px;
 /* ===================
 Banner part End
 ==================== */
+/* ===================
+work part start
+==================== */
+.work{
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
+.work .work-link a{
+    color: #2405F2;
+}
+
+.work-link i {
+    top: 6px;
+    left: 190px;
+    opacity: 0;
+    transition: .4s;
+    color: #2405F2;
+}
+.work-link:hover i{
+    top: 6px;
+    left: 210px;
+    opacity: 1;
+
+}
+.work .box{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+.work .work-box{
+    width: 328px;
+   
+}
+
+.work .work-box h4{
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", serif;
+    padding-top: 16px;
+    padding-bottom: 8px;
+
+}
+.work .work-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", serif;
+    width: 303px;
+
+}
+
+
+/* ===================
+work part End
+==================== */
+
