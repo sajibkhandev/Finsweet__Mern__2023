@@ -208,3 +208,87 @@ work part start
 work part End
 ==================== */
 
+/* ===================
+Project part start
+==================== */
+.project{
+    padding: 128px 0px;
+}
+.project .box{
+    display: flex;
+    justify-content: space-between;
+}
+.project .box h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", serif;
+    
+}
+.project .work-link a{
+    color: #282938 ;
+}
+.project .work-link i{
+    left: 93px;
+    top: 26px;
+    
+    
+}
+.project .work-link:hover i{
+    right: -20px;
+    
+}
+
+.project .project-layout{
+    position: relative;
+    overflow: hidden;
+}
+.project .project-layout .overly{
+    position: absolute;
+    top: 0;
+    left: -52%;
+    width: 52%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(28, 30, 83,0.42),#1C1E53);
+    transition: .4s;
+}
+.project .project-layout:hover .overly{
+    left: 0;
+
+}
+
+.project .overly{
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 32px;
+}
+
+.project .title2 h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", serif;
+}
+.project .title2 p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255,0.80);
+    font-family: "Poppins", serif;
+}
+.project .work-link a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FCD980;
+    font-family: "Poppins", serif;
+}
+.project .box2{
+    display: flex;
+   flex-direction: column;
+   row-gap: 14px;
+    
+}
+
+/* ===================
+Project part End
+==================== */
+
