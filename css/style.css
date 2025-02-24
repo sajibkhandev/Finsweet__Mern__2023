@@ -223,6 +223,7 @@ Project part start
     font-weight: 600;
     color: #282938;
     font-family: "Poppins", serif;
+    padding-bottom: 64px;
     
 }
 .project .work-link a{
@@ -268,6 +269,7 @@ Project part start
     font-weight: 600;
     color: #fff;
     font-family: "Poppins", serif;
+    
 }
 .project .title2 p{
     font-size: 16px;
@@ -290,5 +292,64 @@ Project part start
 
 /* ===================
 Project part End
+==================== */
+
+/* ===================
+product part start
+==================== */
+.product{
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
+.product .title3 p{
+    text-align: center;
+   
+   
+    margin: 0 auto;
+
+}
+.product .title3 h2{
+   text-align: center;
+    width: 630px;
+    margin: 0 auto;
+
+}
+
+.product .card{
+    width: 100% !important;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    padding-left: 48px;
+    padding-right: 40px;
+    border: 0px;
+    border-radius: 0px;
+}
+.product .card img{
+    width: 10%;
+}
+.product .card .card-body{
+    padding: 0 !important;
+
+}
+.product .card .card-body .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+
+}
+.product .card .card-body .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", serif;
+    line-height: 28px;
+
+}
+
+/* ===================
+product part End
 ==================== */
 
