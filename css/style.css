@@ -391,4 +391,35 @@ client part start
 /* ===================
 client part End
 ==================== */
+/* ===================
+title6 part start
+==================== */
+.faq{
+    padding: 128px 0px;
+}
+.faq .title6 h2{
+    font-size: 38px;
+    padding-bottom: 16px;
+
+}
+.faq .title6 .work-link a{
+    color: #2405F2;
+
+}
+.faq .accordion-item{
+    border: 0px;
+    border-bottom: 1px solid #ECECF1;
+}
+.faq .accordion-item span{
+    font-size: 24px;
+    color: #2405F2;
+    padding-right: 60px;
+}
+.faq .accordion-item .accordion-body p{
+    padding:0 87px !important;
+
+}
+/* ===================
+title6 part End
+==================== */
 
