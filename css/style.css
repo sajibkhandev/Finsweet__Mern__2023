@@ -352,4 +352,43 @@ product part start
 /* ===================
 product part End
 ==================== */
+/* ===================
+client part start
+==================== */
+.client{
+    padding: 130px 0px;
+    background: rgba(244, 246, 252,0.50);
+}
+.client .title4 h2{
+    font-size: 38px;
+    width: 327px;
+}
+.client .title5 h2{
+    font-size: 32px;
+   color: #282938;
+   width: 843px;
+   font-weight: 500;
+   line-height: 48px;
+}
+.client .box5{
+    display: flex;
+   align-items: center;
+   column-gap: 14px;
+   padding-top: 48px;
+}
+.client .box5 h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", serif;
+}
+.client .box5 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", serif;
+}
+/* ===================
+client part End
+==================== */
 
