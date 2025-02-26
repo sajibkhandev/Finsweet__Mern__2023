@@ -419,6 +419,32 @@ title6 part start
     padding:0 87px !important;
 
 }
+
+.accordion-button::after{
+    background-image: none !important;
+    content: "+";
+    transform: rotate(0) translateY(-50%);
+    position: absolute;
+    top: 36%;
+    right: 20px;
+    font-size: 25px;
+  
+
+
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none !important;
+    content: "x";
+    transform: rotate(0) translateY(-50%);
+    position: absolute;
+    top: 36%;
+    right: 20px;
+    font-size: 25px;
+    
+
+
+}
+
 /* ===================
 title6 part End
 ==================== */
