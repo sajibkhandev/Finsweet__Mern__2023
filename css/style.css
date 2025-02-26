@@ -448,4 +448,185 @@ title6 part start
 /* ===================
 title6 part End
 ==================== */
+/* ===================
+
+contact part start
+==================== */
+.contact{
+    padding-bottom: 125px;
+}
+.contact .contact-image-box{
+    position: relative;
+}
+.contact .contact-image-box{
+    width: 100%;
+    height: 100%;
+}
+.contact .contact-image-box img{
+    width: 106%;
+    height: 100%;
+}
+.contact .contact-image-box .overlay{
+   background: rgba(28, 30, 83,0.50);
+   width: 106%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding:96px;
+}
+.contact .contact-image-box .overlay h3{
+    font-size: 54px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", serif;
+}
+.contact .contact-image-box .overlay p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Poppins", serif;
+    padding-top: 24px;
+}
+.contact .contact-input-box{
+    background: #1C1E53;
+    padding: 96px;
+}
+.contact .contact-input-box h5{
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", serif;
+    
+}
+.contact .contact-input-box p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", serif;
+    padding-top: 8px;
+    padding-bottom: 48px;
+    
+}
+.contact .contact-input-box input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255,0.05);
+    padding: 18px 32px;
+    color: white;
+    font-family: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+   
+}
+.contact .contact-input-box input::placeholder{
+    color: #F4F6FC;
+    font-size: 16px;
+
+
+}
+.contact .contact-input-box button{
+    width: 100%;
+    background: #FCD980;
+    border-radius: 41px;
+    font-size: 18px;
+    color: #1B1C2B;
+    padding: 16px 0px;
+    font-family: "Manrope", serif;
+    font-weight: 600;
+    margin-top: 36px;
+    border: 0px;
+}
+
+.contact .common-button-two{
+    justify-content: center;
+    padding-top: 30px;
+}
+.contact .common-button-two i{
+    top: 36px;
+    right: 120px;
+}
+.contact .common-button-two:hover i {
+    top: 36px;
+    right: 98px;
+   
+}
+/* ===================
+
+contact part End
+==================== */
+/* ===================
+
+footer part start
+==================== */
+.footer{
+    background: #1C1E53;
+    padding: 100px 0px;
+}
+.footer .footer-logo-content h4{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+   
+
+}
+.footer .footer-logo-content p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Manrope", serif;
+    width: 399px;
+    padding-top: 22px;
+
+}
+.footer .footer-logo-content ul{
+    display: flex;
+    column-gap: 26px;
+    padding: 0;
+    margin: 0;
+
+}
+.footer .footer-logo-content ul i{
+    color: white;
+
+}
+.footer .footer-logo-box{
+    width: 517px;
+    height: 95px;
+    background: #FCD980;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-around;
+}
+
+.footer-two{
+    
+    padding: 32px 0px;
+}
+.footer-two ul{
+    display: flex;
+    column-gap: 32px;
+}
+.footer-two p{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+
+}
+.footer-two ul li a{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    
+}
+/* ===================
+
+footer part End
+==================== */
 
