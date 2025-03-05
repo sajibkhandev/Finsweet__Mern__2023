@@ -9,13 +9,14 @@
 
     background: rgb(54, 124, 142);
     border-radius: 10px;
-    padding: 30px 0px;
+   
 }
 
 .navbar-nav{
     justify-content: center;
     align-items: center;
     row-gap: 30px;
+    padding-top: 20px;
 }
 .nav-link{
     color: white;
@@ -27,6 +28,8 @@
 .navber-button a{
     display: inline-block;
     margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
    /* Navber reseponsive end */
    /* Banner reseponsive start */
@@ -46,15 +49,580 @@
 .common-button a {
 	
 	padding: 13px 20px;
+    font-size: 14px;
 	
 }
 .box-image{
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
 }
 .box-image img{
+    width: 75%;
     
 }
 
    /* Banner reseponsive end */
+   /* wrok reseponsive start */
+   .title h2 {
+	font-size: 32px;
+	
+}
+.title p {
+	font-size: 14px;
+	width: auto;
+	
+}
+.work .work-link a{
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.work .work-box h4 {
+	font-size: 28px;
+	padding-top: 13px;
+	padding-bottom: 5px;
+}
+.work {
+	padding: 80px 0px;
+}
+   /* wrok reseponsive end */
+   /* Project reseponsive start */
+   .project {
+	padding: 75px 0px;
+}
+   .project .box {
+	display: inline-block;
+	
+}
+.project .box h2 {
+	font-size: 28px;
+    padding-bottom: 16px;
+	
+}
+.common-button-two {
+	
+	padding-bottom: 20px;
+}
+.project .project-layout .overly{
+    display: none;
+
+}
+.project-layout img{
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+.project .work-link i {
+	
+	top: 5px;
+}
+.box2 img{
+    padding-bottom: 30px;
+}
+   /* Project reseponsive end */
+   /* Product reseponsive start */
+   .product {
+	
+	padding: 70px 0px;
+
+}
+.product .title3 h2 {
+	
+	width: auto;
+	
+}
+   /* Product reseponsive end */
+   /* client reseponsive end */
+   .client {
+	padding: 80px 0px;
+	
+}
+   .client .title4 h2 {
+	font-size: 32px;
+	width: auto;
+}
+.client .title5 h2 {
+	font-size: 22px;
+	width: auto;
+	line-height: 36px;
+}
+   /* client reseponsive end */
+   /* Faq reseponsive start */
+   .faq .title6 h2 {
+	font-size: 32px;
+	
+}
+.faq .accordion-item span {
+	font-size: 16px;
+	
+	padding-right: 8px;
+}
+.accordion-button::after{
+    top: 49%;
+	right: 6px;
+	font-size: 17px;
+
+}
+.accordion-button:not(.collapsed)::after {
+	
+	top: 49%;
+	right: 6px;
+	font-size: 17px;
+}
+.faq .accordion-item .accordion-body p {
+	padding: 0px !important;
+}
+
+
+   /* Faq reseponsive end */
+   /* contant reseponsive start */
+
+   .contact .contact-image-box img {
+	width: 100%;
+	
+}
+   .contact .contact-image-box .overlay{
+    display: none;
+   }
+   .contact .contact-input-box {
+	
+	padding: 20px;
+}
+
+.footer .footer-logo-box {
+	width: 330px;
+	height: 75px;
+	
+	bottom: -275px;
+	
+	display: flex;
+	padding: 10px 0px;
+	justify-content: space-around;
+}
+.footer-two ul {
+	display: flex;
+	row-gap: 18px;
+	flex-direction: column;
+}
+   /* contant reseponsive end */
+
+}
+@media (min-width:576px) and (max-width:767.99px){
+   /* Navber reseponsive Start */
+   .navbar-toggler{
+    background: white;
+    color: aqua;
+    border: 1px solid rgb(155, 152, 104);
+}
+.navbar-collapse{
+
+    background: rgb(54, 124, 142);
+    border-radius: 10px;
+   
+}
+
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 20px;
+}
+.nav-link{
+    color: white;
+    
+}
+.navber-button{
+    text-align: center;
+}
+.navber-button a{
+    display: inline-block;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+   /* Navber reseponsive end */
+   /* Banner reseponsive start */
+   .banner {
+	
+	padding: 90px 0px;
+}
+.banner h1 {
+	font-size: 34px;
+	line-height: 50px;
+}
+.banner p {
+	font-size: 14px;
+	width: auto;
+	
+}
+.common-button a {
+	
+	padding: 13px 20px;
+    font-size: 14px;
+	
+}
+.box-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+.box-image img{
+    width: 75%;
+    
+}
+
+   /* Banner reseponsive end */
+   /* wrok reseponsive start */
+   .title h2 {
+	font-size: 32px;
+	
+}
+.title p {
+	font-size: 14px;
+	width: auto;
+	
+}
+.work .work-link a{
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.work .work-box h4 {
+	font-size: 28px;
+	padding-top: 13px;
+	padding-bottom: 5px;
+}
+.work {
+	padding: 80px 0px;
+}
+   /* wrok reseponsive end */
+   /* Project reseponsive start */
+   .project {
+	padding: 75px 0px;
+}
+   .project .box {
+	display: inline-block;
+	
+}
+.project .box h2 {
+	font-size: 28px;
+    padding-bottom: 16px;
+	
+}
+.common-button-two {
+	
+	padding-bottom: 20px;
+}
+.project .project-layout .overly{
+    display: none;
+
+}
+.project-layout img{
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+.project .work-link i {
+	
+	top: 5px;
+}
+.box2 img{
+    padding-bottom: 30px;
+}
+   /* Project reseponsive end */
+   /* Product reseponsive start */
+   .product {
+	
+	padding: 70px 0px;
+
+}
+.product .title3 h2 {
+	
+	width: auto;
+	
+}
+   /* Product reseponsive end */
+   /* client reseponsive end */
+   .client {
+	padding: 80px 0px;
+	
+}
+   .client .title4 h2 {
+	font-size: 32px;
+	width: auto;
+}
+.client .title5 h2 {
+	font-size: 22px;
+	width: auto;
+	line-height: 36px;
+}
+   /* client reseponsive end */
+   /* Faq reseponsive start */
+   .faq .title6 h2 {
+	font-size: 32px;
+	
+}
+.faq .accordion-item span {
+	font-size: 16px;
+	
+	padding-right: 8px;
+}
+.accordion-button::after{
+    top: 49%;
+	right: 6px;
+	font-size: 17px;
+
+}
+.accordion-button:not(.collapsed)::after {
+	
+	top: 49%;
+	right: 6px;
+	font-size: 17px;
+}
+.faq .accordion-item .accordion-body p {
+	padding: 0px !important;
+}
+
+
+   /* Faq reseponsive end */
+   /* contant reseponsive start */
+
+   .contact .contact-image-box img {
+	width: 100%;
+	
+}
+   .contact .contact-image-box .overlay{
+    display: none;
+   }
+   .contact .contact-input-box {
+	
+	padding: 20px;
+}
+
+.footer .footer-logo-box {
+	width: 330px;
+	height: 75px;
+	
+	bottom: -275px;
+	
+	display: flex;
+	padding: 10px 0px;
+	justify-content: space-around;
+}
+.footer-two ul {
+	display: flex;
+	row-gap: 18px;
+	flex-direction: column;
+}
+   /* contant reseponsive end */
+
+}
+@media (min-width:768px) and (max-width:991.99px){
+   /* Navber reseponsive Start */
+   .navbar-toggler{
+    background: white;
+    color: aqua;
+    border: 1px solid rgb(155, 152, 104);
+}
+.navbar-collapse{
+
+    background: rgb(54, 124, 142);
+    border-radius: 10px;
+   
+}
+
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 20px;
+}
+.nav-link{
+    color: white;
+    
+}
+.navber-button{
+    text-align: center;
+}
+.navber-button a{
+    display: inline-block;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+   /* Navber reseponsive end */
+   /* Banner reseponsive start */
+   .banner {
+	
+	padding: 90px 0px;
+}
+.banner h1 {
+	font-size: 42px;
+	line-height: 50px;
+}
+.banner p {
+	font-size: 14px;
+	width: auto;
+	
+}
+.common-button a {
+	
+	padding: 13px 20px;
+    font-size: 14px;
+	
+}
+.box-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+.box-image img {
+	width: 85%;
+}
+   /* Banner reseponsive end */
+   /* wrok reseponsive start */
+   .title h2 {
+	font-size: 32px;
+	
+}
+.title p {
+	font-size: 14px;
+	width: auto;
+	
+}
+.work .work-link a{
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.work .work-box h4 {
+	font-size: 28px;
+	padding-top: 13px;
+	padding-bottom: 5px;
+}
+.work {
+	padding: 80px 0px;
+}
+   /* wrok reseponsive end */
+   /* Project reseponsive start */
+   .project {
+	padding: 75px 0px;
+}
+   .project .box {
+	display: inline-block;
+	
+}
+.project .box h2 {
+	font-size: 28px;
+    padding-bottom: 16px;
+	
+}
+.common-button-two {
+	
+	padding-bottom: 20px;
+}
+.project .project-layout .overly{
+    display: none;
+
+}
+.project-layout img{
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+.project .work-link i {
+	
+	top: 5px;
+}
+.box2 img{
+    padding-bottom: 30px;
+}
+   /* Project reseponsive end */
+   /* Product reseponsive start */
+   .product {
+	
+	padding: 70px 0px;
+
+}
+.product .title3 h2 {
+	
+	width: auto;
+	
+}
+   /* Product reseponsive end */
+   /* client reseponsive end */
+   .client {
+	padding: 80px 0px;
+	
+}
+   .client .title4 h2 {
+	font-size: 32px;
+	width: auto;
+}
+.client .title5 h2 {
+	font-size: 22px;
+	width: auto;
+	line-height: 36px;
+}
+   /* client reseponsive end */
+   /* Faq reseponsive start */
+   .faq .title6 h2 {
+	font-size: 32px;
+	
+}
+.faq .accordion-item span {
+	font-size: 16px;
+	
+	padding-right: 8px;
+}
+.accordion-button::after{
+    top: 49%;
+	right: 6px;
+	font-size: 17px;
+
+}
+.accordion-button:not(.collapsed)::after {
+	
+	top: 49%;
+	right: 6px;
+	font-size: 17px;
+}
+.faq .accordion-item .accordion-body p {
+	padding: 0px !important;
+}
+
+
+   /* Faq reseponsive end */
+   /* contant reseponsive start */
+
+   .contact .contact-image-box img {
+	width: 100%;
+	
+}
+   .contact .contact-image-box .overlay{
+    display: none;
+   }
+   .contact .contact-input-box {
+	
+	padding: 20px;
+}
+
+.footer .footer-logo-box {
+	width: 330px;
+	height: 75px;
+	
+	bottom: -275px;
+	
+	display: flex;
+	padding: 10px 0px;
+	justify-content: space-around;
+}
+.footer-two ul {
+	display: flex;
+	row-gap: 18px;
+	flex-direction: column;
+}
+   /* contant reseponsive end */
 
 }
